@@ -14,7 +14,7 @@ form.addEventListener('submit', e => {
     e.preventDefault();
 
     // Hide any message that might be displayed
-    msg.textContent = '';
+    msg.textContent = ' ';
     msg.classList.remove('visible');
 
     //get the search value
